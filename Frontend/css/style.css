@@ -1,0 +1,156 @@
+@import url(font.css);
+
+/* Global styling */
+:root {
+    --blue: #3a86ff;
+    --white: #FEFEFE;
+}
+
+* {
+    font-family: 'CabinetGrotesk-Bold';
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+  }
+
+.navigation div a{
+    list-style: none;
+    margin-right: 30px;
+    align-items: center;
+  }
+.huge{
+    height:1000px;
+}
+
+/* 
+    Home Page Code
+
+    Whoever keeps changing this code, do not change. Work on forms in form.css
+*/
+
+/* Nav */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+/*Victor Code down*/
+
+.big{
+    width: 300px;
+    
+}
+.two-man{
+    padding: 40px 60px;
+    border: 50;
+    border-radius: 5px;
+}
+
+.site-logo{
+    width: 300px;
+}
+ 
+img{
+    margin-top: 20px;
+    padding: 10px;
+    width: 70px;
+}
+
+
+.enterprises {
+    width: auto;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    background-color:#f0f5f8;
+}
+
+.other-icon {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    align-items: center;
+    padding: 20px 40px;
+}
+.references {
+    height: 615px;
+    flex-direction: row-reverse;
+    justify-content: right;
+    background-color:#f0f5f8;
+    
+}
+
+.references-description {
+    text-align: right;
+}
+
+.space{
+    padding: 40px 60px;
+    border: 100;
+    border-radius: 5px;
+    color: var(--white);
+
+}
+
+.small-icon {
+    width: 100px;
+}
+/*Victor Code is the way up*/
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.left-hero, .right-hero {
+    width: 50%;
+}
+
+.hero-img {
+    width: 600px;
+}
+
+.hero-head {
+    font-size: 70px;
+}
+
+.hero-text {
+    font-size: 25px;
+    line-height: 1.3em;
+    padding-right: 70px;
+}
+.nav{
+    background-color:#f0f5f8;
+}
+
+button {
+    padding: 18px 35px;
+    background-color: var(--blue);
+    border: 0;
+    border-radius: 5px;
+    color: var(--white);
+}
+
